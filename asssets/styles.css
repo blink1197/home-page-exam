@@ -14,7 +14,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: var(--primary-700);
+  background-color: var(--primary-800);
 }
 
 .logo {
@@ -40,7 +40,7 @@ background-position: center;
 }
 
 .info {
-  background-color: var(--primary-700);
+  background-color: var(--primary-800);
 }
 
 .info-section {
