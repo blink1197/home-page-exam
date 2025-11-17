@@ -1,0 +1,59 @@
+:root {
+  /* Black Shades (Primary) */
+  --primary-900: #000000;
+  --primary-800: #0D0D0D;
+  --primary-700: #1A1A1A;
+  --primary-600: #262626;
+  --primary-500: #333333;
+  --primary-400: #4D4D4D;
+  --primary-300: #666666;
+  --primary-200: #808080;
+  --primary-100: #B3B3B3;
+}
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--primary-700);
+}
+
+.logo {
+  font-family: 'New Rocker', sans-serif;
+  font-size: 1.5rem;
+}
+
+
+#hero {
+background: linear-gradient(
+    to bottom,
+    rgba(0,0,0,0.9),
+    rgba(0,0,0,0.5)
+  ),
+  url('https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?q=80&w=1170&auto=format&fit=crop');
+background-size: cover;
+background-position: center;
+
+  height: 95vh;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.info {
+  background-color: var(--primary-700);
+}
+
+.info-section {
+    padding: 40px 20px;
+}
+
+.carousel img {
+    object-fit: cover;
+    max-height: 380px;
+}
+
+@media (min-width: 768px) {
+    .carousel img {
+        max-height: 550px;
+    }
+}
